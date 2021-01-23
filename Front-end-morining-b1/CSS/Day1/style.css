@@ -1,0 +1,48 @@
+/*External Css*/
+body{
+	background-color: #fff;
+}
+#title1{
+	background-color: #05A081 !important;
+	/*border:2px;
+	border-style: dashed;
+	border-style: dotted;
+	border-style: solid;
+	border-color:red;*/
+	border: 2px solid red;
+	/*border-top: 2px solid red;*/
+	/*border-bottom: 2px solid orange;
+	border-right: 2px solid blue;*/
+	border-radius: 20px;
+
+}
+p{
+	background-color: red;
+	color:#fff;
+	padding:20px;
+	opacity: .5;
+}
+.title{
+	background-color: #000;
+	font-size: 50px;
+	color:#fff;
+}
+.title2{
+	text-decoration: underline;
+	text-align: center;
+}
+.title3{
+	text-align: center;
+}
+.bg_img{
+	background-image: url("https://images.pexels.com/photos/2290070/pexels-photo-2290070.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	height: 400px;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+}
+.bg_img h1{
+	text-align: center;
+	color: #fff;
+}
