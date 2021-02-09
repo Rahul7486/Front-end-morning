@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>HTML Basic Tags</title>
+	<meta name="description" content="Free Web tutorials">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Rahul">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+	<body>
+		<div style="text-align: center;">
+			<h1><i>Text Formating</i></h1>
+		</div>
+		<div>
+			<h2><em>Title</em></h2>
+			<p> <b>Lorem</b> ipsum dolor sit amet, <strong> consectetur </strong>adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in <mark>voluptate</mark> velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	<br>h2o</p>
+			<hr>
+			<ul>
+				<li>H<sub>2</sub>O</li>
+				<li>2<sup>nd</sup></li>
+				<li>3<sup>rd</sup></li>
+			</ul>
+			<span>Inline tag</span>
+		</div>
+		<div>
+			<h1>Table</h1>
+		</div>
+		<table border="1" cellpadding="10px;" cellspacing="0px" width="100%">
+			<caption>Student Table</caption>
+			<thead>
+				<th>Name</th>
+				<th>Email</th>
+				<th>Mobile</th>
+				<th>Class</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>John</td>
+					<td>john@gmail.com</td>
+					<td>9898989898</td>
+					<td rowspan="2">B.E</td>
+				</tr>
+				<tr>
+					<td>Mike</td>
+					<td>mike@gmail.com</td>
+					<td>9898989898</td>
+				</tr>
+				<tr>
+					<td>Julie</td>
+					<td>julie@gmail.com</td>
+					<td>9898989898</td>
+					<td>B.com</td>
+				</tr>
+				<tr>
+					<td colspan="4">University : RTMNU</td>
+				</tr>
+			</tbody>
+		</table>
+		<div>
+			<h1>IFrame</h1>
+		</div>
+		<!-- <iframe src="about-us.html" width="500px;" height="400px;"></iframe> -->
+		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.2373029833143!2d79.06214321440925!3d21.142952489247147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c06002553a7f%3A0x4d9ea7fd99ea62f1!2sLaw%20Square%2C%20Gorepeth%2C%20Nagpur%2C%20Maharashtra%20440010!5e0!3m2!1sen!2sin!4v1611919971758!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> -->
+		<h1>Youtube</h1>
+		<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/ENqANZV4ehg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+		<div>
+			<h1>Form </h1>
+		</div>
+		<div>
+			<form action="" name="contact-form" method="" enctype="multipart/form-data" autocomplete="" >
+				<div>
+					<label>First Name :</label>
+					<input type="text" name="fname" placeholder="Enter First Name">
+				</div>
+				<div>
+					<label>last Name :</label>
+					<input type="text" name="lname" placeholder="Enter Last Name">
+				</div>
+				<div>
+					<label>Email :</label>
+					<input type="email" name="email" placeholder="Enter Email ID">
+				</div>
+				<div>
+					<label>no.</label>
+					<input type="text" name="no" placeholder="Enter no." maxlength="10" minlength="10">
+				</div>
+				<div>
+					<label>Password</label>
+					<input type="password" name="password" placeholder="Enter pass.">
+				</div>
+				<div>
+					 <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" checked> I have Bike <br>
+			  		
+			  		<input type="checkbox" id="vehicle2" name="vehicle2" value="Car"> I have Car <br>
+			  		
+			  		<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat"> I have a boat <br>
+				</div>
+				<div>
+					<label>Gender :</label><br>
+					<input type="radio" name="gender" value="male" checked> Male <br>
+					<input type="radio" name="gender" value="female"> Female <br>
+					<input type="radio" name="gender" value="other"> Other <br>
+				</div>
+				<div>
+					<lable>City</lable><br>
+					<select>
+						<option selected>---- Select Your City ----</option>
+						<option value="nagpur"> Nagpur </option>
+						<option value="akola"> Akola </option>
+						<option value="pune"> Pune </option>
+					</select>
+				</div>
+				<div>
+					<label>Upload Resume </label><br>
+					<input type="file" name="resume">
+				</div>
+				<div>
+					<label>Message</label><br>
+					<textarea cols="50" rows="10" placeholder="Enter Your Message"></textarea>
+				</div>
+				<!-- <button>Submit</button> -->
+				<input type="submit" name="">
+				<!-- <input type="button" name="next" value="Next"> -->
+			</form>
+		</div>
+	</body>
+</html>
