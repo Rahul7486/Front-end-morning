@@ -1,0 +1,75 @@
+.main_blog1{
+	width: 500px;
+	background-color: #F5F5F5;
+	margin:auto;
+	padding: 20px;
+	border:1px solid #ccc;
+}
+.main_blog2{
+	max-width: 500px;
+	background-color: #F0F0F0;
+	margin:auto;
+	padding: 20px;
+	border:1px solid #ccc;
+
+}
+.sharing a{
+	font-size: 30px;
+}
+.fb{
+	color: #3b5998;
+}
+.tw{
+	color: #0096D6;
+}
+.in{
+	color: #E1306C;
+}
+.sharing a:hover{
+	color: #000;
+	font-size: 32px;
+}
+input.name:focus{
+	background-color: green;
+}
+.main_blog1:hover{
+	cursor: pointer;
+	background-color: #00BCD4;
+}
+.main_blog3 p:first-child{
+	background-color: #00BCD4;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+}
+.main_blog3 p:last-child{
+	background-color: #3b5998;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+}
+.main_blog3 p:nth-child(2){
+	background-color: #ff5700;
+	color: #fff;
+	padding: 20px;
+	font-size: 20px;
+}
+p::selection {
+  color: red;
+  background: yellow;
+}
+.main_blog4 h1::before{
+	content:'2222';
+
+}
+.main_blog4 h1::after{
+	content:'5555';
+
+}
+.main_blog3 p span{
+	color: red;
+	font-size: 30px;
+}
+.main_blog1 h1{
+	display: none;
+}
