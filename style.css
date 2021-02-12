@@ -1,5 +1,183 @@
-.my_btn{
-	background-color: #009688 !important;
-	color:#fff !important;
-	border-color: #009688 !important;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+	box-sizing: border-box;
+}
+body{
+	margin:0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.nav_bar,
+.container{
+	width: 100%;
+	max-width: 1140px;
+	margin:0 auto;
+}
+.nav_bar{
+	display: flex;
+	justify-content: space-between;
+}
+.top_nav{
+	display: flex;
+	align-items: center;
+}
+.nav_bar h1{
+	font-family: 'Montserrat', sans-serif;
+	color: #673AB7;
+}
+.nav_bar h1 span{
+	color: #E91E63;
+}
+.top_nav ul{
+	padding: 0;
+	margin:0;
+}
+.top_nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.top_nav ul li a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	color:#3a3a3a;
+	margin-right: 15px;
+}
+.header_section{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+	background: #9796f0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.header_section img{
+	height: 150px;
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 5px;
+	box-shadow: 0px 2px 8px #919191;
+}
+.header_section h1,
+.media_objects h3,
+.project_card h3,
+.projects h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+
+}
+.media_objects img{
+	height: 200px;
+}
+.media_objects p{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	line-height: 22px;
+	text-align: justify;
+}
+.media_objects{
+	display: flex;
+	padding: 20px 0px;
+}
+.icon-right,
+.icon-left{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-left{
+    order:2;
+}
+.icon-right,
+.content-left{
+	flex:1;
+}
+.content-right,
+.icon-left{
+	flex:1;
+}
+.quote_btn{
+	text-align: center;
+}
+.quote_btn a{
+	background-color: #3F51B5;
+	color:#fff;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 8px 20px;
+	display: inline-block;
+	border-radius: 20px;
+}
+.service_section{
+	background-color: #f5f0fd;
+	padding: 30px 0px;
+}
+.project_img{
+	background-image: url(https://20o8nn37v3mzb7unq3fsj61e-wpengine.netdna-ssl.com/wp-content/uploads/2020/02/6-Project-Management-Techniques-Every-PM-Should-Know.jpg);
+	height: 250px;
+	width: 250px;
+	background-position: center;
+}
+.project_card{
+	width: 250px;
+	border:1px solid #efefef;
+	box-shadow: 0px 2px 8px #f0f0f0;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.project_card h3{
+	margin-bottom: 0px;
+}
+.project_desc{
+	padding: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	line-height: 22px;
+	text-align: justify;
+}
+.project_main{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.projects h1{
+	text-align: center;
+}
+.projects{
+	padding: 30px 0px;
+}
+footer{
+	background-color: #3a3a3a;
+	color:#fff;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	padding: 15px 0px;
+}
+@media only screen and (max-width: 600px){
+	.nav_bar{
+		flex-direction: column;
+		padding: 10px 5px;
+	}
+	.nav_bar h1{
+		font-size: 20px;
+	}
+	.top_nav ul li a{
+		margin-right: 10px;
+	}
+	.media_objects{
+		flex-direction: column;
+		padding: 10px 10px;
+	}
+	.icon-left{
+		order:1;
+	}
+	.content-right{
+		order:2;
+	}
+	.header_section h1, .media_objects h3, .project_card h3, .projects h1{
+		text-align: center;
+	}
 }
