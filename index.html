@@ -2,101 +2,74 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>CSS Day6</title>
+	<title>Bootstrap Day1</title>
 	<meta name="description" content="Free Web tutorials">
 	<meta name="keywords" content="HTML, CSS, JavaScript">
 	<meta name="author" content="ncildlc">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="header">
-		<div class="row">
-			<div class="col-3 col-s-12 logo">
-				<h1>logo</h1>
-			</div>
-			<div class="col-6 col-s-12 menu">
-				<h1>Menu Bar</h1>
-			</div>
-			<div class="col-3 col-s-12 login_btn">
-				<h1>login-btn</h1>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h1>col-6</h1>
+				</div>
+				<div class="col-md-6">
+					<h1>col-6</h1>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!-- <div class="main_body">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col-8 col-s-12">
-				<div class="col-6">
-					<div class="col-8">
-						<h1>Main Body1.1</h1>
-					</div>
-					<div class="col-4">
-						<h1>Main Body1.2</h1>
-					</div>
-				</div>
-				<div class="col-6">
-					<h1>Main Body2</h1>
-				</div>
+			<div class="col-md-4">
+				<h1>Title1</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
-			<div class="col-4 col-s-12">
-				<h1>Main Body3</h1>
+			<div class="col-md-4 order-12">
+				<h1>Title2</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			</div>
-		</div>
-	</div> -->
-	<div class="card_main">
-		<div class="col-4">
-			<div class="card_body">
-				<div class="bg_img1"></div>
-				<div class="card_content">
-					<h1>Title</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
-					<a href="" class="card_btn">read more</a>
-					<div class="share">
-						<a href="#" class="fb"><i class="fab fa-facebook"></i></a>
-						<a href="#" class="tw"><i class="fab fa-twitter"></i></a>
-						<a href="#" class="in"><i class="fab fa-instagram"></i></a>
-					</div>
+			<div class="col-md-4 order-1">
+				<h1>Title3</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<div class="grid">
+					<div class="">grid1</div>
+					<div class="">grid2</div>
 				</div>
 			</div>
 		</div>
-		<div class="col-4">
-			<div class="card_body">
-				<div class="bg_img1"></div>
-				<div class="card_content">
-					<h1>Title</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
-					<a href="" class="card_btn">read more</a>
-					<div class="share">
-						<a href="#" class="fb"><i class="fab fa-facebook"></i></a>
-						<a href="#" class="tw"><i class="fab fa-twitter"></i></a>
-						<a href="#" class="in"><i class="fab fa-instagram"></i></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="col-4">
-			<div class="card_body">
-				<div class="bg_img1"></div>
-				<div class="card_content">
-					<h1>Title</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat.</p>
-					<a href="" class="card_btn">read more</a>
-					<div class="share">
-						<a href="#" class="fb"><i class="fab fa-facebook"></i></a>
-						<a href="#" class="tw"><i class="fab fa-twitter"></i></a>
-						<a href="#" class="in"><i class="fab fa-instagram"></i></a>
-					</div>
-				</div>
+	</div>
+	<div class="container-fluid">
+		<div class="col-md-6">
+			<div class="media">
+			  <img class="mr-3" src="https://karmen-personal-portfolio-template-sass.netlify.app/assets/img/blog/blog1.jpg" alt="Generic placeholder image">
+			  <div class="media-body">
+			    <h5 class="mt-0 mb-0 pt-2">Media heading</h5>
+			    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+			  </div>
 			</div>
 		</div>
 	</div>
