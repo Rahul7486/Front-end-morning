@@ -1,18 +1,5 @@
-*{
-	box-sizing: border-box;
-}
-body{
-	background-color: #f0f0f0;
-}
-.container{
-	background-color: #fff;
-	border:1px solid #ccc;
-}
-.container-fluid{
-	background-color: #f0f0f0;
-	border:1px solid red;
-}
-.grid{
-	display: grid;
-	grid-template-columns: 1fr 1fr;
+.my_btn{
+	background-color: #009688 !important;
+	color:#fff !important;
+	border-color: #009688 !important;
 }
